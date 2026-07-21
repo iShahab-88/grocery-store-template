@@ -348,3 +348,38 @@ h2.title{
     text-align: center;
     margin: 10px 5px ;
 }
+
+.weekend-main{
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+    padding: 10px 20px;
+    background-repeat: none;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.weekend-text{
+    position: absolute;
+    top: 25%;
+    right: 6%;
+    width: 60%;
+}
+
+.weekend-text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weekend-text h3{
+    color: var(--secondary-color);
+    font-size: 30px;
+    width: 60%;
+}
+
+.weekend-text .card-btn a{
+    background-color: #eeed00;
+    color: #000;
+    border-color: #eeed00;
+}
